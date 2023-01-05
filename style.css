@@ -5,3 +5,179 @@
     font-family: 'Inter', sans-serif;
 }
 
+.center{ 
+    display: flex;
+    max-width: 1100px;
+    padding:1% 1%;
+    margin:0 auto;
+    flex-wrap: wrap; 
+}
+
+.menu{display: flex;width:100%; padding-bottom: 1%;}
+
+.logo-menu{width:50%;}
+
+.items-menu{
+    width:50%;
+    text-align: right;
+}
+
+.items-menu a{
+    color: hsl(236, 13%, 42%);
+    text-decoration: none;
+    display: inline-block;
+    margin:0 10px;
+}
+
+.items-menu a:hover{
+    color: hsl(35, 77%, 62%);
+}
+
+.main{
+    display: flex;
+}
+
+.higlight{
+    width: 66%;
+    display: flex;
+}
+
+.top-image img{max-width: 100%}
+
+.title{
+    width: 40%;
+    display: flex;
+}
+
+.description{
+    display: flex;
+    width: 100%;
+}
+
+.title{
+    width: 50%;
+    padding-top: 2%;
+}
+
+.title h1{
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 90%;
+}
+
+.description-content{
+    width: 50%;
+    color: hsl(233, 8%, 79%);
+    padding: 2%;
+    font-size: 15px;
+    line-height: 160%;
+}
+
+.description-content p{
+    margin-bottom: 45px;
+}
+
+.description-content a{
+    color: hsl(36, 100%, 99%);
+    text-decoration: none;
+    background-color: hsl(5, 85%, 63%);
+    padding: 10px 20px;
+}
+
+.description-content a:hover{
+    background-color: hsl(240, 100%, 5%);
+}
+
+.new{
+    background-color: hsl(240, 100%, 5%);
+    margin-left: 1%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.new-item{
+    flex-grow: 1;
+}
+
+.solid{
+    color: hsl(236, 13%, 42%);
+    margin-bottom: 30px;
+}
+
+.new h2{
+    color: hsl(35, 77%, 62%);
+    flex-grow: 1;
+}
+
+.new a{
+    text-decoration: none;
+    color: hsl(36, 100%, 99%);
+}
+
+.new a:hover{
+    color: hsl(35, 77%, 62%);
+
+}
+
+.new p{
+    color: hsl(236, 13%, 42%);
+    line-height: 140%;
+    margin-top: 10px;
+}
+
+
+
+.trending{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 50px;
+    flex-wrap: nowrap;
+}
+
+.trendn{
+    display: flex;
+}
+
+.trendn img{
+    width: 85%;
+}
+
+.trend-text h2{
+    color: hsl(233, 8%, 79%);
+    margin-bottom: 20px;
+}
+
+.trend-text a{
+    text-decoration: none;
+    color: hsl(240, 100%, 5%);
+    font-weight: 700;
+}
+
+.trend-text a:hover{
+    color: hsl(5, 85%, 63%);
+}
+
+.trend-text p{
+    margin-top: 20px;
+    color: hsl(236, 13%, 42%);
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    
+}
+
+.challenge{
+    width: 50%;
+    align-self: baseline;
+    padding-top: 12px;
+}
+
+.autor{
+    width: 50%;
+    text-align: right;
+}
+
