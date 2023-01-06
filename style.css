@@ -44,10 +44,9 @@
 
 .top-image img{max-width: 100%}
 
-.title{
-    width: 40%;
-    display: flex;
-}
+.top-image-mobile img{max-width: 100%; display: none;}
+
+
 
 .description{
     display: flex;
@@ -55,6 +54,7 @@
 }
 
 .title{
+    display: flex;
     width: 50%;
     padding-top: 2%;
 }
@@ -181,3 +181,88 @@
     text-align: right;
 }
 
+@media screen and (max-width: 768px) {
+    .top-image img{
+        display: none;
+    }
+    .top-image-mobile img{
+        display: block;
+        padding: 1%;
+    }
+
+    .main{
+        flex-direction: column;
+    }
+
+    .description{
+        flex-direction: column;
+    }
+
+    .title{
+        
+        width: 100%;
+    }
+
+    .title h1{
+        font-size: 2.7rem;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .description-content{
+        width: 100%;
+    }
+
+    .description-content p{
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .description-content a{
+        padding: 15px 40px;
+    }
+
+    .new {
+        width: 100%;
+        margin-top: 4rem;
+        padding: 4%;
+    }
+
+    .new h2{
+        margin-bottom: 1.5rem;
+    }
+
+    .new-item p{
+        margin-bottom: 1.5rem;
+    }
+
+    .trending{
+        flex-direction: column;
+        padding: 1%;
+        width: 100%;
+        margin-top: 2rem;
+
+    }
+
+    .trendn{
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+   
+
+    .img-trend img{
+        width: 80%;
+    }
+
+    .trend-text{
+        width: 100%;
+    }
+
+    #lap {
+        width: 80%;
+    }
+
+
+    
+}
