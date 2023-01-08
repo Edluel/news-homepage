@@ -18,20 +18,20 @@
           <a href="/"><img src="images/logo.svg"></a>
         </div>
         <div class="items-menu">
-          <a href="#">Home</a>
-          <a href="#">New</a>
-          <a href="#">Popular</a>
-          <a href="#">Trending</a>
+          <a href="#section1">Home</a>
+          <a href="#section2">New</a>
+          <a href="#section1">Popular</a>
+          <a href="#section3">Trending</a>
           <a href="#">Categories</a>
         </div>
         <div class="items-menu-mobile">
           <input id="close-menu" class="close-menu" type="checkbox" arial-label="Close menu" role="button">
           <label class="close-menu-label" for="close-menu" title="close menu"></label>
-          <div class = "menu-mobile">
-            <a href="#">Home</a>
-            <a href="#">New</a>
-            <a href="#">Popular</a>
-            <a href="#">Trending</a>
+          <div class = "menu-mobile" onclick="getElementById('close-menu').checked = false;">
+            <a href="#section1">Home</a>
+            <a href="#section2">New</a>
+            <a href="#section1">Popular</a>
+            <a href="#section3">Trending</a>
             <a href="#">Categories</a>
           </div>
         </div>
@@ -41,14 +41,14 @@
   <section>
     <div class="center">
       <div class="main">
-        <div class="highlight">
+        <div id="section1" class="highlight">
           <div class="top-image">
             <img src="images/image-web-3-desktop.jpg" />
           </div>
           <div class="top-image-mobile">
             <img src="images/image-web-3-mobile.jpg" />
           </div>      
-          <div class="description">
+          <div  id="section1" class="description">
             <div class="title">
               <h1>
                 The&nbspBright Future&nbspof Web&nbsp3.0?
@@ -63,7 +63,7 @@
             </div>
           </div><!--description-->
         </div><!--highlight-->
-        <div class="new">
+        <div  id="section2" class="new">
           <h2>
             New
           </h2>
@@ -95,7 +95,7 @@
           </div>
         </div><!--New articles-->
       </div><!--main content-->
-      <div class="trending">
+      <div id="section3" class="trending">
         <div class="trendn">
           <div class="img-trend">
             <img src="images/image-retro-pcs.jpg">
