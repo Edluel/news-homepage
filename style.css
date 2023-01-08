@@ -291,39 +291,33 @@
         font-size: 1.5rem;
     }
 
-    .close-menu{display: none;}
-
-    .close-menu img{
-        right: 2px;
-        top: 2px;
-    }
-
     .items-menu-mobile{display: flex; width: 50%;}
 
-    .open-menu{
-        display: flex;
+    .close-menu {
+        display: none;
+        z-index: 2;
         position: fixed;
-        align-self: flex-end;
-        top: 10px;
-        right: 10px;
-        z-index: 1;
-    }
-    
-    .open-menu img{
-        right: 2px;
-        top: 2px;
+        top: 0;
+        left: 0;
     }
 
-    .img-menu {
-        display: flex;
+    .close-menu-label::after{
+        content: url(https://raw.githubusercontent.com/Edluel/news-homepage/70a5ee8e3ea4ed18fb8e885d80a1a65ae8f96c7e/images/icon-menu.svg);
+        z-index: 2;
         position: fixed;
-        align-self: flex-end;
-        top: 10px;
-        right: 10px;
-        z-index: 1;
+        top: 8px;
+        right: 8px;
+        cursor: pointer;
     }
-    .img-menu img{
-        right: 2px;
-        top: 2px;
+
+    .close-menu:checked~.close-menu-label::after{
+        content: url(https://raw.githubusercontent.com/Edluel/news-homepage/70a5ee8e3ea4ed18fb8e885d80a1a65ae8f96c7e/images/icon-menu-close.svg);
     }
+
+
+    .close-menu:checked~.menu-mobile{
+        display: flex;
+    }
+
+
 }
