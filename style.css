@@ -187,6 +187,14 @@ html {
     text-align: right;
 }
 
+.close-menu {
+    display: none;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
 @media screen and (max-width: 768px) {
     .top-image img{
         display: none;
@@ -296,14 +304,6 @@ html {
     }
 
     .items-menu-mobile{display: flex; width: 50%;}
-
-    .close-menu {
-        display: none;
-        z-index: 2;
-        position: fixed;
-        top: 0;
-        left: 0;
-    }
 
     .close-menu-label::after{
         content: url(https://raw.githubusercontent.com/Edluel/news-homepage/70a5ee8e3ea4ed18fb8e885d80a1a65ae8f96c7e/images/icon-menu.svg);
